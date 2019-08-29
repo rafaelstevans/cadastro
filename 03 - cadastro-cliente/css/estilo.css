@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    margin: 0px;
+}
+
+nav {
+    background-color: rgb(9, 163, 198);
+    float: left;
+    width: 30%;
+    height: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    position: fixed;
+    box-shadow: 5px 0px 10px gray;
+}
