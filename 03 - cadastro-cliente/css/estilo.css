@@ -20,6 +20,7 @@ nav {
   position: fixed;
   box-shadow: 5px 0px 10px gray;
   overflow: hidden;
+  transition: width 1s;
 }
 
 img {
@@ -50,6 +51,7 @@ main {
   float: right;
   padding: 40px;
   box-sizing: border-box;
+  transition: width 1s;
 }
 
 main h1 {
@@ -87,6 +89,22 @@ form button {
   opacity: 0;
 }
 
+.btn-menu-abrir-exibir {
+  opacity: 1;
+}
+
+.exibir-menu {
+  width: 30%;
+}
+
+.fechar-menu {
+  width: 0%;
+}
+
+.aumentar-main {
+  width: 100%;
+}
+
 form button:hover {
   background-color: rgb(13, 101, 121);
   cursor: pointer;
@@ -96,6 +114,7 @@ form button:hover {
   nav {
     width: 0%;
   }
+
   main {
     width: 100%;
   }
