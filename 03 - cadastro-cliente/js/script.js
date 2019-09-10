@@ -10,3 +10,23 @@ function abrirMenu() {
     document.getElementById("btn-menu").classList.remove("btn-menu-abrir-exibir")
     document.getElementById("menu").classList.add("exibir-menu")
 }
+
+function validar() {
+
+    // Leitura dos dados
+
+    let nome = document.getElementById("nome").value
+    let email = document.getElementById("email").value
+
+
+    if (nome == "") {
+        alert("Campo nome é obrigatório!!!")
+    }
+
+    if (email == "") {
+        alert("Campo e-mail é obrigatório!!!")
+    }
+
+
+
+}
